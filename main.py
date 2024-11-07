@@ -20,7 +20,7 @@ while True:
     client.connect("broker.hivemq.com", 1883)
 
     # Inscreva-se em um tópico (substitua pelo tópico correto)
-    client.subscribe("SEU/TOPICO")
+    client.subscribe("SENSOR/ULTRASSOM")
 
     # Inicie o loop para receber as mensagens
     client.loop_start()
